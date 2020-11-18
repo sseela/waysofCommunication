@@ -1,0 +1,12 @@
+
+<app-child [parentMsgReceived]="parentMsg" (childToParentEmitter)="eventEmitted($event)"></app-child>
+
+<p>child to Parent message through @Output: {{childMessage}}</p>
+
+<p>child to Parent message through @ViewChild: {{childVariableReceivedThroughViewChild}}</p>
+
+
+
+
+
+
